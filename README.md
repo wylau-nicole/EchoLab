@@ -1,3 +1,3 @@
 # hello-world
 Just another repository
-Hi my name is Nicole
+Hi my name is EchoLab!
