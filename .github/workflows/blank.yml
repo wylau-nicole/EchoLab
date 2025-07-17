@@ -1,0 +1,5 @@
+import pandas as pd, requests, io
+
+url = "https://growth.amplitude.com/api/benchmarks/download/all.csv"
+df  = pd.read_csv(io.BytesIO(requests.get(url).content))
+print(df.head())
